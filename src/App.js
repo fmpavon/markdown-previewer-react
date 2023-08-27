@@ -1,10 +1,12 @@
 import './App.css';
 import { useSelector, useDispatch } from 'react-redux';
+import { marked } from 'marked';
 
 function Preview() {
   const inputState = useSelector((state) => state.input);
+  const markdown = marked.parse(inputState);
   return (
-    <div id="preview">{inputState}</div>
+    <div id="preview" dangerouslySetInnerHTML={{__html: markdown}}></div>
   );
 }
 
