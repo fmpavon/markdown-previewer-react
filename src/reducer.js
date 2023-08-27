@@ -21,7 +21,9 @@ This is a list:
 >This is a blockquote...
 
 And finally, an image:
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1024px-React-icon.svg.png)`
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1024px-React-icon.svg.png)
+>This file is licensed under the Creative Commons Attribution-Share Alike 1.0 Generic license.
+>**Attribution: *Facebook***`
 }
 
 export default function appReducer(state = initState, action) {
