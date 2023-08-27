@@ -1,4 +1,5 @@
 import './App.css';
+import { useSelector, useDispatch } from 'react-redux';
 
 function Preview() {
   return (
@@ -12,11 +13,4 @@ function Editor() {
   );
 }
 
-function App() {
-  return (
-    <div className="App">
-    </div>
-  );
-}
-
-export default App;
+export { Preview, Editor };
