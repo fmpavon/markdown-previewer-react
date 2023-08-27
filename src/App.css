@@ -37,3 +37,17 @@
 img{
   max-width: 100%;
 }
+
+pre, code{
+    background-color: black;
+    color: white;
+}
+
+pre{
+    padding: 0.5em;
+}
+
+blockquote{
+    background-color: gainsboro;
+    padding: 0.5em;
+}
