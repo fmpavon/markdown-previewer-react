@@ -33,3 +33,7 @@
     padding-top: 0em;
     overflow-y: scroll;
 }
+
+img{
+  max-width: 100%;
+}
